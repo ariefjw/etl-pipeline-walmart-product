@@ -29,7 +29,7 @@ def load(DB_NAME, COLLECTION_NAME, data_clean):
     data_clean : pandas dataframe hasil cleaning
   '''
   #configuration connection to mongoDB
-  uri = "mongodb+srv://ariefjw:ariefjw@cluster0.cr8et.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  uri = "mongodb+srv://<username>:<password>jw@cluster0.cr8et.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   client = MongoClient(uri, server_api=ServerApi('1'))
   db = client[DB_NAME]
   collection = db[COLLECTION_NAME]
