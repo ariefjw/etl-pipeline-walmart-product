@@ -1,4 +1,4 @@
-# Proyek ETL Walmart Product
+# ETL Pipeline Walmart Product
 
 ## Deskripsi
 Proyek ini digunakan untuk otomatisasi proses Extract, Transform, Load (ETL) menggunakan Apache Airflow. Proyek ini menjalankan tiga node terpisah untuk mengekstrak, mentransformasi, dan memuat data produk Walmart. Proses ini dijadwalkan untuk berjalan setiap hari Sabtu antara pukul 09:10 hingga 09:30 dengan interval 10 menit.
